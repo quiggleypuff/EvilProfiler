@@ -1,10 +1,10 @@
 # EvilProfiler
 
-EvilProfiler is a simple COR_PROFILER shellcode loader.
+EvilProfiler is a simple .NET profiler shellcode loader.
 
 It __does not__ do any profiling.
 
-It decrypts xor encrypted shellcode and executes it in a new thread of the process it is set to profile.
+It decrypts bundled xor encrypted shellcode and executes it in a new thread of the process it is set to profile.
 
 ## Compiling EvilProfiler
 
